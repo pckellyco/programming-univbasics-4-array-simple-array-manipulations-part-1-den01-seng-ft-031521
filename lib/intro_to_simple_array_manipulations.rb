@@ -16,5 +16,5 @@ def pop_with_args(array)
   last_ele = array[-1]
   next_to_last_ele = array[-2]
   array.pop
-  last_ele next_to_last_ele
+  last_ele + next_to_last_ele
 end  
