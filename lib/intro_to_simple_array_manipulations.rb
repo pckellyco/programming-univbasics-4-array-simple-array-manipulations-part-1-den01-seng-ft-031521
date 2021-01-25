@@ -18,3 +18,9 @@ def pop_with_args(array)
   array.pop(2)
   [next_to_last_ele, last_ele]
 end
+
+def using_shift(array)
+  first_ele = array[0]
+  array.shift
+  first_ele
+end
