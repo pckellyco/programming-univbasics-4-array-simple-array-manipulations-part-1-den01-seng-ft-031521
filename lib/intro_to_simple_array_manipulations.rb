@@ -24,3 +24,10 @@ def using_shift(array)
   array.shift
   first_ele
 end
+
+def shift_with_args(array)
+  first_ele = array[0]
+  second_ele = array[1]
+  array.shift(2)
+  [first_ele, second_ele]
+end
