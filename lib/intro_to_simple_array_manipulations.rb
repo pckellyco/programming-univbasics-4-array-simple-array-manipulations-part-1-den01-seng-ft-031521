@@ -8,5 +8,5 @@ end
 
 def using_pop(array)
   array.pop()
-  array[array.length -1]
+  array[-1]
 end
